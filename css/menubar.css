@@ -1,0 +1,104 @@
+#menubar
+{
+	position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #FFFFFF;
+    background-repeat: repeat-x;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#menubar_container
+{
+	position: relative;
+    margin: 0 auto;
+    width: 960px;
+    text-align: left;
+    overflow: hidden;
+    border-right: 1px solid #aaaaaa;
+    border-left: 1px solid #aaaaaa;
+}
+
+.menu_item
+{
+	float: left;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 5px;
+    margin: 1px;
+    font-size: 11px;
+}
+
+
+#menubar a:link, #menubar a:visited, #menubar a
+{
+	color:#000000;
+	text-decoration:underline;
+	text-decoration:none;
+}
+
+#menubar .menu_item:hover a
+{
+	color:#ffffff;
+	text-decoration:underline;	
+	text-decoration:none;
+}
+
+.menu_item:hover
+{
+	box-shadow: 0px 0px 2px inset;
+	background-color:#555555;
+}
+
+#menubar_company_info
+{
+	float:left;
+	left:0px;
+	top: 70px;
+	width:50%;
+}
+
+#company_title
+{
+	font-weight:bold;
+}
+
+#menubar_navigation
+{
+	left:200px;
+	top:8px;
+	height:45%;
+}
+
+#menubar_footer
+{
+	float:left;
+	top: 150px;
+	left:0px;
+	padding-top:3px;
+	font-size:10px;
+	font-weight:bold;
+}
+
+.h_co{
+	overflow: hidden;
+    padding: 2px;
+    background-color: #206C8C;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#menubar_date
+{
+	float:left;
+	top: 150px;
+	right:0px;
+	width:50%;
+	padding-top:3px;
+	font-size:10px;
+	font-weight:bold;
+	text-align: right;
+}
